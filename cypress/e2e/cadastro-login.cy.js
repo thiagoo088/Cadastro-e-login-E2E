@@ -23,7 +23,7 @@ describe('Funcionalidade: Deve fazer cadastro e login com sucesso', () => {
         cy.get('#user-name').should('contain', nome)
     
         cy.clearAllSessionStorage()
-        cy.clearAllSessionStorage()
+       
         
         cy.visit('login.html')
         
